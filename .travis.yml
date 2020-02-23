@@ -8,6 +8,7 @@ before_install:
 install:
   - npm install
 script:
+  - git config --global merge.renameLimit 999999
   - ls
   - hugo
 deploy:
