@@ -1,13 +1,14 @@
-title = "Notre-Dame de Paris"
-baseURL = "https://example.com"
+title = "周公解梦1"
+baseURL = "https://94275.cn/zgjm"
 languageCode = "en-us"
+defaultContentLanguage = "zh-cn"
 theme = "gohugo-theme-ananke"
-themesDir = "../.."
+# themesDir = "../.."
 
 MetaDataFormat = "yaml"
-DefaultContentLanguage = "en"
+DefaultContentLanguage = "zh"
 SectionPagesMenu = "main"
-Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
+Paginate = 4 # this is set low for demonstrating with dummy content. Set to a higher number
 googleAnalytics = ""
 enableRobotsTXT = true
 
@@ -20,7 +21,7 @@ enableRobotsTXT = true
   favicon = ""
   description = "The last theme you'll ever need. Maybe."
   facebook = ""
-  twitter = "https://twitter.com/GoHugoIO"
+  twitter = ""
   instagram = ""
   youtube = ""
   github = ""
@@ -32,4 +33,18 @@ enableRobotsTXT = true
   # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
   background_color_class = "bg-black"
   featured_image = "/images/gohugo-default-sample-hero-image.jpg"
-  recent_posts_number = 2
+  recent_posts_number = 7
+
+# Tips: 定义的侧边栏菜单，icon取自Font-awesome
+[[menu.main]]
+  weight = 1
+  identifier = "首页"
+  name = "首页"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-home\"></i>"
+  url = "/"
+...
+[[menu.links]]
+...
+[[menu.misc]]
+
+
