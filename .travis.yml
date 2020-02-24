@@ -11,6 +11,7 @@ script:
   - git config --global merge.renameLimit 999999
   - ls
   - hugo
+  - npm run algolia
 deploy:
   provider: pages
   local-dir: public
