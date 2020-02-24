@@ -3,6 +3,20 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://94275.cn/zgjm/search/</loc>
+    <lastmod>2020-02-24T13:08:02+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://94275.cn/zgjm/</loc>
+    <lastmod>2020-02-24T13:08:02+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://94275.cn/zgjm/%E7%89%A9%E5%93%81/2020-02-18-dvd%E5%BD%B1%E7%A2%9F%E6%9C%BA/</loc>
     <lastmod>2020-02-15T20:54:12+08:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -13437,13 +13451,6 @@
   
   <url>
     <loc>https://94275.cn/zgjm/%E4%BA%BA%E7%89%A9/2020-02-18-%E5%91%98%E5%B7%A5/</loc>
-    <lastmod>2020-02-15T20:54:12+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://94275.cn/zgjm/</loc>
     <lastmod>2020-02-15T20:54:12+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
