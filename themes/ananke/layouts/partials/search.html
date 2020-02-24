@@ -4,11 +4,13 @@
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.7.1/dist/instantsearch-theme-algolia.min.css">
 
 
-<div id="search-box"><!-- SearchBox widget will appear here --></div>
+
 <!-- include algolia logo -->
 <img src="https://www.algolia.com/static_assets/images/pricing/pricing_new/algolia-powered-by-14773f38.svg" style="float:right"></img>
 
-<div id="hits" >
+<div class="pa3 pa4-ns w-100 w-70-ns center" role="main">
+    <div id="search-box"><!-- SearchBox widget will appear here --></div>
+    <div id="hits"></div>
     <!-- Hits widget will appear here -->
 </div>
 
@@ -55,10 +57,10 @@
 
         return `
   <div class="post-item">
-    <span class="post-meta">${date}</span>
-      <h2><a class="post-link" href="${url}">${title}</a></h2>
-      <a href="${url}" class="post-breadcrumbs">${breadcrumbs}</a>
-    <div class="post-snippet">${content}</div>
+    <span class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">${date}</span>
+      <h2><a class="f3 fw1 athelas mt0 lh-title" href="${url}">${title}</a></h2>
+      <a href="${url}" class="color-inherit dim link">${breadcrumbs}</a>
+    <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">${content}</div>
   </div>
   `;
     }

@@ -16,18 +16,12 @@
         {{ end }}
       </div>
     </div>
-    <form id="search" role="search" action="/search/">
-      <input type="text" name="q" placeholder="Search" />
-    </form>
   </header>
 {{ else }}
   <header>
     <div class="{{ .Site.Params.background_color_class | default "bg-black" }}">
       {{ partial "site-navigation.html" . }}
     </div>
-    <form id="search" role="search" action="/search/">
-      <input type="text" name="q" placeholder="Search" />
-    </form>
   </header>
 {{ end }}
 
