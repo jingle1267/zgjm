@@ -10,7 +10,8 @@ install:
 script:
   - git config --global merge.renameLimit 999999
   - ls
-  - hugo
+  - hugo -D
+  - ls public/
 deploy:
   provider: pages
   local-dir: public
