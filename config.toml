@@ -35,6 +35,17 @@ enableRobotsTXT = true
   featured_image = "/images/gohugo-default-sample-hero-image.jpg"
   recent_posts_number = 10
 
+[outputFormats.Algolia]
+  baseName = "algolia"
+  isPlainText = true
+  mediaType = "application/json"
+  notAlternative = true
 
+[params.algolia]
+  vars = ["title", "permalink"]
+  params = ["categories", "tags","series"]
+
+[outputs]
+home = ["HTML", "RSS", "Algolia"]
 
 

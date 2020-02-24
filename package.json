@@ -1,0 +1,23 @@
+{
+  "name": "hugo-algolia",
+  "version": "1.0.0",
+  "description": "ZGJM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "algolia": "atomic-algolia"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jingle1267/zgjm.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jingle1267/zgjm/issues"
+  },
+  "homepage": "https://github.com/jingle1267/zgjm#readme",
+  "dependencies": {
+    "atomic-algolia": "^0.3.17"
+  }
+}

@@ -36,3 +36,15 @@ hugo -D
 hugo server -D
 
 ```
+
+#### 4. Search
+
+使用Algolia：
+
+https://10101.io/2018/11/23/search-with-algolia-in-hugo
+
+```npm
+npm init  // 初始化，不懂具体内容一路回车就好
+npm install atomic-algolia --save
+npm run algolia
+```
