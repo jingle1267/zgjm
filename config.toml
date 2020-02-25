@@ -1,7 +1,7 @@
 title = "周公解梦"
 baseURL = "https://94275.cn/zgjm"
 languageCode = "zh-cn"
-defaultContentLanguage = "zh-cn"
+# defaultContentLanguage = "zh-cn"
 theme = "ananke"
 # themesDir = "../.."
 
